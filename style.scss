@@ -1,0 +1,63 @@
+$bg-color: #fff;
+$fg-color: #222;
+
+html {
+  font-size: 16px;
+}
+
+html,
+body,
+h1,
+p {
+  font-family: 'GlacialIndifferenceRegular', sans-serif;
+}
+
+body {
+  background-color: $bg-color;
+        overflow-y: scroll;
+             color: $fg-color;
+}
+
+a {
+  color: $fg-color;
+}
+
+a:hover {
+  text-decoration: none;
+            color: lighten($fg-color, 20%);
+}
+
+ul {
+  padding-left: 2rem;
+}
+
+li {
+  padding-left: .2rem;
+     font-size: .5rem;
+}
+
+li > span {
+  vertical-align: -12%;
+       font-size: 1rem;
+}
+
+.text-sm {
+  font-size: .8rem;
+}
+
+::-moz-selection {
+  background-color: $fg-color;
+             color: $bg-color;
+}
+
+::selection {
+  background-color: $fg-color;
+             color: $bg-color;
+}
+
+.text-justify {
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
