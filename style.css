@@ -1,0 +1,50 @@
+html {
+  font-size: 16px; }
+
+html,
+body,
+h1,
+p {
+  font-family: 'GlacialIndifferenceRegular', sans-serif; }
+
+body {
+  background-color: #fff;
+  overflow-y: scroll;
+  color: #222; }
+
+a {
+  color: #222; }
+
+a:hover {
+  text-decoration: none;
+  color: #555555; }
+
+ul {
+  padding-left: 2rem; }
+
+li {
+  padding-left: .2rem;
+  font-size: .5rem; }
+
+li > span {
+  vertical-align: -12%;
+  font-size: 1rem; }
+
+.text-sm {
+  font-size: .8rem; }
+
+::-moz-selection {
+  background-color: #222;
+  color: #fff; }
+
+::selection {
+  background-color: #222;
+  color: #fff; }
+
+.text-justify {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; }
+
+/*# sourceMappingURL=style.css.map */
