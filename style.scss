@@ -22,7 +22,9 @@ a {
   color: $fg-color;
 }
 
-a:hover {
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
             color: lighten($fg-color, 20%);
 }
