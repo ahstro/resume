@@ -14,12 +14,9 @@ body {
 
 a {
   color: #222; }
-
-a:hover,
-a:focus,
-a:active {
-  text-decoration: none;
-  color: #555555; }
+  a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: #555555; }
 
 ul {
   padding-left: 2rem; }
@@ -27,10 +24,9 @@ ul {
 li {
   padding-left: .2rem;
   font-size: .5rem; }
-
-li > span {
-  vertical-align: -12%;
-  font-size: 1rem; }
+  li > span {
+    vertical-align: -12%;
+    font-size: 1rem; }
 
 .text-sm {
   font-size: .8rem; }
